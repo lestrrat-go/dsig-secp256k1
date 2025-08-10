@@ -1,10 +1,12 @@
 module github.com/lestrrat-go/dsig-secp256k1
 
-go 1.24.4
+go 1.23.0
+
+toolchain go1.24.4
 
 require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0
-	github.com/lestrrat-go/dsig v0.0.0-20250810012513-e85e096234ca
+	github.com/lestrrat-go/dsig v0.0.0-20250810050526-cb214b4b1ff6
 	github.com/stretchr/testify v1.10.0
 )
 
