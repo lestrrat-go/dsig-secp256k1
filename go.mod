@@ -6,7 +6,7 @@ toolchain go1.23.6
 
 require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0
-	github.com/lestrrat-go/dsig v0.0.0-20250810050526-cb214b4b1ff6
+	github.com/lestrrat-go/dsig v0.0.0-20250815061604-76113d026db6
 	github.com/stretchr/testify v1.10.0
 )
 
